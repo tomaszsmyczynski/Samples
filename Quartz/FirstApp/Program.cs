@@ -30,7 +30,7 @@ namespace FirstApp
                 scheduler.Start();
 
                 IJobDetail job = JobBuilder.Create<HelloWorldJob>()
-                    .WithIdentity("HelloWorld", "Basic")
+                    .WithIdentity("HelloWorld2", "Basic")
                     .UsingJobData("Version", "1")
                     .Build();
 
@@ -38,7 +38,7 @@ namespace FirstApp
                 scheduler.AddCalendar("test", cal, true, true);
 
                 ITrigger trigger = TriggerBuilder.Create()
-                    .WithIdentity("s10", "Seconds")
+                    .WithIdentity("s102", "Seconds2")
                     .StartNow()
                     .WithSimpleSchedule(x =>
                         x.WithIntervalInSeconds(10)
