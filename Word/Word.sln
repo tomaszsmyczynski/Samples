@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word.Api", "Word.Api\Word.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word.SpireDoc.Test", "Word.SpireDoc.Test\Word.SpireDoc.Test.csproj", "{01BA5450-6F15-44CF-B121-24883C6C1478}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Word.GemBox", "Word.GemBox\Word.GemBox.csproj", "{1787C8C2-47C5-409E-A6AC-481B9D29BE56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F73CBD6C-530F-4167-8B0B-D332D8D6D936}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,15 @@ Global
 		{01BA5450-6F15-44CF-B121-24883C6C1478}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01BA5450-6F15-44CF-B121-24883C6C1478}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01BA5450-6F15-44CF-B121-24883C6C1478}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1787C8C2-47C5-409E-A6AC-481B9D29BE56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1787C8C2-47C5-409E-A6AC-481B9D29BE56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1787C8C2-47C5-409E-A6AC-481B9D29BE56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1787C8C2-47C5-409E-A6AC-481B9D29BE56}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01BA5450-6F15-44CF-B121-24883C6C1478} = {F73CBD6C-530F-4167-8B0B-D332D8D6D936}
 	EndGlobalSection
 EndGlobal
